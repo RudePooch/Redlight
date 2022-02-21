@@ -36,11 +36,8 @@ while keeping logs completely covered.
   ![image](https://user-images.githubusercontent.com/82180782/155022640-9a9ded6e-1a15-48e4-af1f-14b7a15d727b.png)
 
   ### In Game Settings
-  ### *Set Game Window to* "WindowedFullScreen"  
+  #### *Set Game Window to* "WindowedFullScreen"  
    ![image](https://user-images.githubusercontent.com/82180782/155028680-aab1fd7f-047f-4b0e-8142-b4fb02633d88.png)
-    
-  UI General Scale (Right Of Screen)  
-    ![image](https://user-images.githubusercontent.com/82180782/155028713-5152aafc-9edd-4b9d-bf27-68602134f7d6.png)
   
   Navigate here  
     ![image](https://user-images.githubusercontent.com/82180782/155024246-4bb0e11a-4c31-49ac-91e7-06e64c0a674c.png)
