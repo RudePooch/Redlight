@@ -59,7 +59,7 @@ while keeping logs completely covered.
   #### Turn Auto-Hide Off  
   ![image](https://user-images.githubusercontent.com/82180782/155028514-013ace64-e3d5-4b51-868c-82e8c99a665f.png)
     
-  With Extended Hud and Global open, Open Tribe Logs  
+  With Extended Hud and Global open, Open Tribe Logs.  
   Open Redlight, You are now protected.
 
 *-V.*
