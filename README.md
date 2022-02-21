@@ -1,6 +1,6 @@
 # Redlight
-Log Bot For "ARK: Survival Evolved"
-#An application written in Python to monitor the status of "Tribe Logs" 
+Log Bot For "ARK: Survival Evolved"  
+An application written in Python to monitor the status of "Tribe Logs" 
 in game while not requiring the game window to actually be active.
     
 # Example
