@@ -56,11 +56,10 @@ while keeping logs completely covered.
   ![image](https://user-images.githubusercontent.com/82180782/155025826-83899ab8-2c3d-45ec-a58c-9543907d4796.png)  
 
   ### *Global Chat*
-  ####Turn Auto-Hide Off  
+  #### Turn Auto-Hide Off  
   ![image](https://user-images.githubusercontent.com/82180782/155028514-013ace64-e3d5-4b51-868c-82e8c99a665f.png)
     
-  With Extended Hud and Global open, Open Tribe Logs
-  Open Redlight
-  You are now protected.
+  With Extended Hud and Global open, Open Tribe Logs  
+  Open Redlight, You are now protected.
 
 *-V.*
