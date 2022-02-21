@@ -7,7 +7,6 @@ Log Bot For "ARK: Survival Evolved"
 # Example
 With "ARK: Survival Evolved" running in the background  
 you are able to play other games/browse  
-  
 while keeping logs completely covered.
       
 # Installation/Setup
