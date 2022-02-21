@@ -12,7 +12,6 @@ ESY - Log Bot For "ARK: Survival Evolved"
 #Installation/Setup
   Install the 64bit version
   https://github.com/UB-Mannheim/tesseract/wiki
-  ![image](https://user-images.githubusercontent.com/82180782/155021015-0e311acc-bb8c-4d02-b6cf-1ea2a3a4d50d.png)
   
   After Tesseract installs, you will have to set up your Discord Webhooks (2-3)
     A Guide on how to set those up.
