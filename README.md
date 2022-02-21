@@ -50,8 +50,9 @@ while keeping logs completely covered.
   ![image](https://user-images.githubusercontent.com/82180782/155024896-a511d9d4-7532-4f5a-b508-0295c2dfa563.png)
 
   ### *Apply/Save the settings*  
-  #### Press (Default) = "H"  
-  #### Top left of the screen should have this and it should stay there (Actual Day/Time will vary)  
+  #### Once back in game
+  #### Press (Default) = "H"
+  #### Top left of the screen should have this and it should stay there (Actual Day/Time will vary)
   ![image](https://user-images.githubusercontent.com/82180782/155025826-83899ab8-2c3d-45ec-a58c-9543907d4796.png)  
 
   ### *Global Chat*
