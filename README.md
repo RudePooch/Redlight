@@ -4,17 +4,19 @@ Log Bot For "ARK: Survival Evolved"
   in game while not requiring the game window to actually be active.
     
 # Example
-With ARK: Survival Evolved running in the background, you are able to play other games/browse
-while keeping logs completely covered.
-    
-#Installation/Setup
-  Install the 64bit version
-  https://github.com/UB-Mannheim/tesseract/wiki
+ARK: Survival Evolved running in the background  
+you are able to play other games/browse  
   
-  After Tesseract installs, you will have to set up your Discord Webhooks (2-3)
-    A Guide on how to set those up.
-    https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+while keeping logs completely covered.
+      
+# Installation/Setup
+  Install the 64bit version  
+  https://github.com/UB-Mannheim/tesseract/wiki  
     
+  After Tesseract installs, you will have to set up your Discord Webhooks (2-3)  
+    A Guide on how to set those up.  
+    https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks  
+      
   Once those are out of the way, you will have to get the "roleid" of the Roles that you want to ping in Discord
     as well as the webhooks for the Redlight.ini
     
