@@ -9,8 +9,7 @@ With "ARK: Survival Evolved" running in the background, you are able to play oth
 while keeping logs completely covered.
       
 # Installation/Setup
-  Install the 64bit version  
-  https://github.com/UB-Mannheim/tesseract/wiki  
+  #### Install the 64bit version https://github.com/UB-Mannheim/tesseract/wiki ####
     
   After Tesseract installs, you will have to set up your Discord Webhooks (2-3)  
   
