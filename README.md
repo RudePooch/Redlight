@@ -19,8 +19,8 @@ while keeping logs completely covered.
   Once those are out of the way, you will have to get the "roleid" of the Roles that you want to ping in Discord  
     as well as the webhooks for the Redlight.ini  
       
-    A Guide on how to do that
-    https://discordhelp.net/role-id
+  A Guide on how to do that
+  https://discordhelp.net/role-id
     
   Download Redlight and unpack it to one folder then open Redlight.ini.
     
