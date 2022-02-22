@@ -50,6 +50,10 @@ while keeping logs completely covered.
   ### *From there*
   #### "TOGGLE EXTENDED HUD INFO:" ON  
   ![image](https://user-images.githubusercontent.com/82180782/155024896-a511d9d4-7532-4f5a-b508-0295c2dfa563.png)
+  
+  #### This should be the end result  
+  ![image](https://user-images.githubusercontent.com/82180782/155198274-b654cf8c-4477-4ad3-8dda-d17a5e24f161.png)
+
 
   ### *Apply/Save the settings*  
   #### Once back in game
