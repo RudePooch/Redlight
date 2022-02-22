@@ -75,7 +75,7 @@ while keeping logs completely covered.
   ## If the logs are NOT open you will see this  
   ![image](https://user-images.githubusercontent.com/82180782/155196916-2ff3eae8-2906-4f7a-98f0-d91ed5072087.png)
 
-  This will happen periodically as the conditions behind the woring "TRIBE LOG" change.  
+  This will happen periodically as the conditions behind the wording "TRIBE LOG" change.  
   The cooldown is 60 seconds and will resume normal scanning operations after the cooldown.  
   Scan interval is currently set to 2 seconds.  
   Scanning will continue while you are doing other things on your computer.
