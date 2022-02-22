@@ -84,6 +84,6 @@ while keeping logs completely covered.
   Scan interval is currently set to 2 seconds.  
   Scanning will continue while you are doing other things on your computer.  
   
-  You are now protected.
+  **You are now protected.**
 
 *-V.*
