@@ -35,7 +35,7 @@ while keeping logs completely covered.
       "roles" = Main Role ID to Ping
       "svroles" = Server Specific Role (For Multiple Server Support) 
       
-  ![image](https://user-images.githubusercontent.com/82180782/155022640-9a9ded6e-1a15-48e4-af1f-14b7a15d727b.png)
+  ![image](https://user-images.githubusercontent.com/82180782/155238474-d41629b5-e0a9-4527-8f41-6c58019692bf.png)
 
   ### In Game Settings
   #### *Set Game Window to* "WindowedFullScreen"  
