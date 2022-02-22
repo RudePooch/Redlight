@@ -10,7 +10,7 @@ With "ARK: Survival Evolved" running in the background, you are able to play oth
 while keeping logs completely covered.
       
 # Installation/Setup
-  ### *Either Compile from source or use the pre-compiled Redlight.exe*  
+  ### Either Compile from source or use the pre-compiled Redlight.exe  
   ### *Install the 64bit version of Tesseract.* https://github.com/UB-Mannheim/tesseract/wiki
     
   After Tesseract installs, you will have to set up your Discord Webhooks (2-3)  
@@ -62,6 +62,22 @@ while keeping logs completely covered.
   ![image](https://user-images.githubusercontent.com/82180782/155028514-013ace64-e3d5-4b51-868c-82e8c99a665f.png)
     
   With Extended Hud and Global open, Open Tribe Logs.  
-  Open Redlight, You are now protected.
+  Make sure you are using base gamma (Gamma) in the Ark Cosole  
+  You are now ready to open Redlight.  
+  
+  # Running Redlight
+  ## Open Redlight  
+  ![image](https://user-images.githubusercontent.com/82180782/155197528-ebd314c3-1bc3-4e55-b462-4649f8984a39.png)
+
+  ## Once running you should see this if everything was set up correctly  
+  ![image](https://user-images.githubusercontent.com/82180782/155196748-5f828c7c-91d7-4f0f-a25e-0b0714f0f16f.png)
+
+  ## If the logs are NOT open you will see this  
+  ![image](https://user-images.githubusercontent.com/82180782/155196916-2ff3eae8-2906-4f7a-98f0-d91ed5072087.png)
+
+  This will happen periodically as the conditions behind the woring "TRIBE LOG" change.  
+  The cooldown is 60 seconds and will resume normal scanning operations after the cooldown.  
+  Scan interval is currently set to 2 seconds.  
+  Scanning will continue while you are doing other things on your computer.
 
 *-V.*
