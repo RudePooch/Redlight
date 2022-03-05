@@ -87,3 +87,7 @@ while keeping logs completely covered.
   **You are now protected.**
 
 *-V.*
+
+Donation Link if you feel like it.
+
+https://www.paypal.com/donate/?business=2J7M5MPF79WAE&no_recurring=0&item_name=Redlight+is+a+free+to+use+Log+Bot%2C+if+you+feel+like+donating+then+I+would+like+to+thank+you+in+advance%21+Stay+safe.%0A-V.&currency_code=USD
