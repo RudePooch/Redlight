@@ -45,6 +45,16 @@ ocr_urls = read_config.get("Log_Alert", "ocr_urls")
 roles = read_config.get("Role", "roles")
 svrole = read_config.get("Role", "svrole")
 
+#TODO: Alert configuration may be cleaner if parsed as a dict. Perhaps look into vyperconfig in the future.
+kill_alert_enabled = read_config.get("Alerts", "kills")
+death_and_destruction_alert_enabled = read_config.get("Alerts", "death_and_destruction")
+teksensor_alert_enabled = read_config.get("Alerts", "teksensor")
+parasaur_ping_alert_enabled = read_config.get("Alerts", "parasaur_ping")
+starvation_alert_enabled = read_config.get("Alerts", "starvation")
+demolition_alert_enabled = read_config.get("Alerts", "demolition")
+enemy_structure_destroyed_alert_enabled = read_config.get("Alerts", "enemy_structure_destroyed")
+log_positioning_alert_enabled = read_config.get("Alerts", "log_positioning")
+
 #DECORATOR FOR CONSOLE
 def endoffunc():
     try:
@@ -171,11 +181,13 @@ def compare(im, roles):
 
         #SCANS FOR PARASAUR PING (CYAN) ALERT = 7
         if (0, 255, 234) in lop2:
-            logger.error("Alert Found")
+            logger.error("Alert Found: Parasaur Ping Detected")
 
             #SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
             content = (f"{roles} - **Parasaur, Simply Too Close** - {who}")
-            return LiveHook(content)
+            #TODO: Fix config such that true/false are parsed as boolean rather than strings
+            if parasaur_ping_alert_enabled == 'true':
+                return LiveHook(content)
 
         #ALERT NOT DETECTED
         logger.debug("Nothing new to report")
@@ -206,7 +218,8 @@ def AlertDetection(roles):
             if not froze:
                 #SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
                 content = (f"Something Starved - {who}")
-                return LiveHook(content)
+                if starvation_alert_enabled == 'true':
+                    return LiveHook(content)
 
             #"FROZE" IN IMAGE, IGNORE ALERT
             else:
@@ -233,8 +246,9 @@ def AlertDetection(roles):
             if not claimed:
                 #SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
                 content = (f"{roles} - **Killed Something, Take a Look** - {who}")
-                logger.error("Alert Found")
-                return LiveHook(content)
+                logger.error("Alert Found: Your tribe killed something")
+                if kill_alert_enabled == 'true':
+                    return LiveHook(content)
             #"CLAIMED" IN IMAGE, IGNORE ALERT
             else:
                 return
@@ -243,28 +257,33 @@ def AlertDetection(roles):
         elif (158, 76, 76) in list_of_pixels:
             #SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
             content = (f"{svrole} - **Tek Sensor, Someone's Looking** - {who}")
-            logger.error("Alert Found")
-            return LiveHook(content)
+            logger.error("Alert Found: Tek Sensor Triggered")
+            if teksensor_alert_enabled == 'true':
+                return LiveHook(content)
 
         #SCANS FOR DEATH/DESTRUCTION (RED) ALERT = 5
         elif (255, 0, 0) in list_of_pixels:
             # SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
+            logger.error("Alert Found: Death/Destruction Detected")
             content = (f"{roles} - **Death/Destruction, Wake up Buddy** - {who}")
-            logger.error("Alert Found")
-            return LiveHook(content)
+            if death_and_destruction_alert_enabled == 'true':
+                return LiveHook(content)
 
         #ENEMY STRUCTURE DESTROYED (SAND) ALERT = 6
         elif (255, 191, 76) in list_of_pixels:
+            logger.error("Alert Found: You destroyed enemy structure")
             content = (f"{roles} - **You destroyed enemy structure, Intended?**")
-            return LiveHook(content)
+            if enemy_structure_destroyed_alert_enabled == 'true':
+                return LiveHook(content)
 
         #POTENTIALLY ADD SOMETHING TO DETECT TURRET SOUNDS
 
         #UNDEFINED COLOURS/LOGS ARE NOT AT THE TOP
         else:
             content = (f"{roles} - **Log positioning skewed?** - {who}")
-            logger.error("Alert Found")
-            return LiveHook(content)
+            logger.error("Alert Found: Log positioning Skewed")
+            if log_positioning_alert_enabled == 'true':
+                return LiveHook(content)    
     except Exception as e:
         logger.error(f"Something failed in AlertDetection: ", e)
 
