@@ -44,6 +44,8 @@ alert_urls = read_config.get("Log_Alert", "alert_urls")
 ocr_urls = read_config.get("Log_Alert", "ocr_urls")
 roles = read_config.get("Role", "roles")
 svrole = read_config.get("Role", "svrole")
+
+#TODO: Alert configuration may be cleaner if parsed as a dict. Perhaps look into vyperconfig in the future.
 kill_alert_enabled = read_config.get("Alerts", "kills")
 death_and_destruction_alert_enabled = read_config.get("Alerts", "death_and_destruction")
 teksensor_alert_enabled = read_config.get("Alerts", "teksensor")
@@ -183,6 +185,7 @@ def compare(im, roles):
 
             #SETS UP MESSAGE FOR DISCORD WEBHOOK IF ALERT FOUND
             content = (f"{roles} - **Parasaur, Simply Too Close** - {who}")
+            #TODO: Fix config such that true/false are parsed as boolean rather than strings
             if parasaur_ping_alert_enabled == 'true':
                 return LiveHook(content)
 
