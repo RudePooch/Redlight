@@ -1,0 +1,16 @@
+*.zip
+*.png
+*.txt
+*.spec
+
+\venv
+\build
+\dist
+
+# ignore all ini except Redlight.ini
+*.ini
+!Redlight.ini
+
+# ignore all ini except Redlight.exe
+*.exe
+!Redlight.exe
