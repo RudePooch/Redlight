@@ -1,0 +1,14 @@
+*.zip
+*.png
+*.txt
+*.spec
+
+\venv
+\build
+\dist
+
+\OverseerCA8_Logs
+
+# ignore all ini except Redlight.ini
+*.ini
+!Redlight.ini
