@@ -7,8 +7,10 @@
 \build
 \dist
 
-\OverseerCA8_Logs
-
 # ignore all ini except Redlight.ini
 *.ini
 !Redlight.ini
+
+# ignore all ini except Redlight.exe
+*.exe
+!Redlight.exe
